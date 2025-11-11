@@ -20,7 +20,7 @@ stop_worker = False
 
 def enqueue_job(cmd):
     job_id = add_job(cmd)
-    print(f"✅ Job added successfully (ID: {job_id})")
+    print(f"Job added successfully (ID: {job_id})")
 
 
 #LIST JOBS---------------------------------------------------------------------------------------
@@ -48,7 +48,7 @@ def start_worker():
     # Register Ctrl+C handler
     signal.signal(signal.SIGINT, handle_signal)
 
-    print("👷 Worker started. Waiting for jobs... (Press Ctrl+C to stop)")
+    print("Worker started. Waiting for jobs... (Press Ctrl+C to stop)")
 
     while not stop_worker:
         job = get_next_job()
