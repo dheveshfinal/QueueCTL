@@ -115,10 +115,12 @@ Execution	Subprocess execution of commands	Flexible for various system commands
 DLQ	Manual inspection and replay	Keeps control in user’s hands
  Testing Instructions
 
+
+
+
 Run Unit Tests
 
 pytest
-
 
 Manual Verification
 
