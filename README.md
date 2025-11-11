@@ -1,4 +1,4 @@
-# QueueCTL — Lightweight Background Job Queue (SQLite Based)
+# QueueCTL (SQLite Based)
 
 QueueCTL is a simple background job queue built with Python and SQLite.  
 It supports job enqueueing, retry with exponential backoff, dead letter queues (DLQ), persistent storage, configuration, metrics, and graceful worker shutdown.  
