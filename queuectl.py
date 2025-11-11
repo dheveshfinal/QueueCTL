@@ -107,10 +107,10 @@ def main():
     if len(sys.argv) < 2:
         print("""
 Usage:
-  python queuectl.py enqueue "<command>"   → Add a new job
-  python queuectl.py list [state]          → List all jobs (or by state)
-  python queuectl.py worker                → Start worker to process jobs
-  python queuectl.py dlq                   → Show Dead Letter Queue
+  python queuectl.py enqueue "<command>"   
+  python queuectl.py list [state]         
+  python queuectl.py worker                
+  python queuectl.py dlq                   
         """)
         sys.exit(0)
 
